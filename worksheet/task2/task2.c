@@ -42,8 +42,8 @@ int main(void){
         decimal = decimal * 16 + value;
     }
     
-    // print the decimal result
-    printf("decimal:%ld\n", decimal);
+    // print ONLY the decimal result (as required)
+    printf("%ld\n", decimal);
     
     return 0;
 }
